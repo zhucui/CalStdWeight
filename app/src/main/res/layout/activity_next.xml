@@ -34,6 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:text="Back"
+            android:textStyle="bold"
             android:layout_marginTop="28dp"
             android:onClick="goBack"/>
 
@@ -42,6 +43,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
             android:text="SendMsg"
+            android:textStyle="bold"
             android:layout_marginTop="28dp"
             android:onClick="sendResult"/>
 
@@ -50,6 +52,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
             android:text="Close"
+            android:textStyle="bold"
             android:layout_marginTop="28dp"
             android:onClick="closeApp"/>
 
