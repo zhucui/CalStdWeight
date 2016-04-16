@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calculate Standard Weight</string>
+    <string name="app_intr">A simple application for calculating your standard weight by selecting your gender and entering your height. Have fun!</string>
+    <string name="height_ft_hint">"   "</string>
+    <string name="height_in_hint">"   "</string>
+    <string name="button_text">"Calculate"</string>
+</resources>

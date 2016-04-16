@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.m.calstdweight.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="28dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/app_intr"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_margin="28dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/smileface3"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="22dp"
+                android:text="Gender:"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <RadioGroup
+                android:id="@+id/myRadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <RadioButton
+                    android:id="@+id/femal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Femal"/>
+
+                <RadioButton
+                    android:id="@+id/male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:descendantFocusability="beforeDescendants"
+            android:focusableInTouchMode="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:text="Height:"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/height_ft"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:layout_marginLeft="24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ft"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/height_in"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:layout_marginLeft="12dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="in"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_text"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="28dp"
+            android:onClick="caculateStdWeight"/>
+
+    </LinearLayout>
+
+</ScrollView>
