@@ -1,5 +1,4 @@
-# CalStdWeight
-Calculate Standard Weight
+# Calculate Standard Weight
+A simple application for calculating people's standard weight based on the gender and height.
 
-
-![](/app/src/main/res/drawable/smileface1.jpg)
+![](/screenshots/screenshot1.png)
