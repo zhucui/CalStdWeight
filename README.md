@@ -1,5 +1,5 @@
 # Calculate Standard Weight
-A simple application for calculating people's standard weight based on the gender and height. The project is shared at https://github.com/zhucui/CalStdWeight
+A simple application for calculating people's standard weight based on the gender and height. The project is shared at https://github.com/zhucui/CalStdWeight.git and was using Genymotion emulator.
 
 ![](/screenshots/screenshot1.png)
 
